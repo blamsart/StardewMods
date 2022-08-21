@@ -1,0 +1,10 @@
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\bin\Debug\net5.0\PostWeddingDates.deps.json
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\bin\Debug\net5.0\PostWeddingDates.dll
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\bin\Debug\net5.0\PostWeddingDates.pdb
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.AssemblyInfoInputs.cache
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.AssemblyInfo.cs
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.csproj.CoreCompileInputs.cache
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.dll
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.pdb
+C:\Users\Blams\source\repos\PostWeddingDates\PostWeddingDates\obj\Debug\net5.0\PostWeddingDates.csproj.AssemblyReference.cache
