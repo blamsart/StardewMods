@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "EventGenerator/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Pathoschild.Stardew.ModBuildConfig": "2.1.0-beta-20180630"
+        },
+        "compile": {
+          "lib/net452/EventGenerator.dll": {}
+        },
+        "runtime": {
+          "lib/net452/EventGenerator.dll": {}
+        }
+      },
+      "Pathoschild.Stardew.ModBuildConfig/4.0.1": {
+        "type": "package",
+        "build": {
+          "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventGenerator/1.1.1": {
+      "sha512": "Q0fshMqadh/En+T8SBjwE7hISPckygG/PnPfEkDdk2+9R4ooH4RcAO/6ceLgbmSump8/XxoadPPvq5k/CswuxQ==",
+      "type": "package",
+      "path": "eventgenerator/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eventgenerator.1.1.1.nupkg.sha512",
+        "eventgenerator.nuspec",
+        "lib/net452/EventGenerator.dll"
+      ]
+    },
+    "Pathoschild.Stardew.ModBuildConfig/4.0.1": {
+      "sha512": "1Q9cVdHNH7iUC0wYqwJHdUlyP69NZkLfbiOWWkMzmYHmFHCzH3CuhM8eqxh6BGdi3yemp8/S2xcnUQBFsmYnnA==",
+      "type": "package",
+      "path": "pathoschild.stardew.modbuildconfig/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/SMAPI.ModBuildConfig.Analyzer.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/Pathoschild.Stardew.ModBuildConfig.targets",
+        "build/SMAPI.ModBuildConfig.dll",
+        "build/SMAPI.Toolkit.CoreInterfaces.dll",
+        "build/SMAPI.Toolkit.dll",
+        "build/find-game-folder.targets",
+        "images/icon.png",
+        "pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "EventGenerator >= 1.1.1",
+      "Pathoschild.Stardew.ModBuildConfig >= 4.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Blams\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Blams\\source\\repos\\MoreForLeo\\MoreForLeo\\MoreForLeo.csproj",
+      "projectName": "MoreForLeo",
+      "projectPath": "C:\\Users\\Blams\\source\\repos\\MoreForLeo\\MoreForLeo\\MoreForLeo.csproj",
+      "packagesPath": "C:\\Users\\Blams\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Blams\\source\\repos\\MoreForLeo\\MoreForLeo\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Blams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "EventGenerator": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
+          "Pathoschild.Stardew.ModBuildConfig": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'EventGenerator 1.1.1' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net5.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "EventGenerator",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

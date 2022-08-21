@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "FzRU1tOca2deK+3sYeOtmJc2UDsuen5/mzyYj6Y4WYnrDO70FEAHTO0iITeh/UwgxN7uWrdGcbjM/ALBkhzJ+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Blams\\source\\repos\\MoreForLeo\\MoreForLeo\\MoreForLeo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Blams\\.nuget\\packages\\eventgenerator\\1.1.1\\eventgenerator.1.1.1.nupkg.sha512",
+    "C:\\Users\\Blams\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.0.1\\pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'EventGenerator 1.1.1' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net5.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "EventGenerator",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
